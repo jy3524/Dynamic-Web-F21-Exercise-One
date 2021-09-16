@@ -5,7 +5,54 @@
 }
 
 .HeaderOneStyle {
-  font-size: 64px;
+  font-size: 80px;
   font-weight: normal;
   margin: 0;
+}
+
+.ArticleListingHeader {
+  margin: 60px 0;
+}
+
+.ArticleCardWrapper {
+  align-items: flex-start;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 60px;
+  padding: 25px;
+}
+
+.ArticleCardImage {
+  flex-basis: 30%;
+}
+
+.ArticleCardImage img {
+  height: auto;
+  width: 100%;
+}
+
+.ArticleCardText {
+  flex-basis: 70%;
+  padding-left: 30px;
+}
+
+.ArticleCardTitle {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ArticleCardDate {
+  font-size: 12px;
+  padding-right: 20px;
+}
+
+.ArticleCardBlurb {
+
+}
+
+.ArticleCardLink {
+  font-weight: bold;
 }
