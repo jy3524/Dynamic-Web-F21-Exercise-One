@@ -20,12 +20,13 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   padding: 25px;
 }
 
 .ArticleCardImage {
   flex-basis: 30%;
+  padding-right: 20px;
 }
 
 .ArticleCardImage img {
@@ -35,7 +36,6 @@
 
 .ArticleCardText {
   flex-basis: 70%;
-  padding-left: 30px;
 }
 
 .ArticleCardTitle {
@@ -45,14 +45,16 @@
 }
 
 .ArticleCardDate {
-  font-size: 12px;
-  padding-right: 20px;
+  font-size: 14px;
+  padding-right: 8px;
 }
 
 .ArticleCardBlurb {
-
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .ArticleCardLink {
+  font-size: 16px;
   font-weight: bold;
 }
