@@ -24,7 +24,7 @@ function Article() {
       <section className="ArticleText">
         {article.articleText && article.articleText.map((text, i) => { 
           return <p key={i}>{text.data}</p>;
-        })};
+        })}
       </section>
     </main>
   );
