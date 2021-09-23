@@ -54,14 +54,14 @@
   margin-bottom: 8px;
 }
 
-.ArticleCardLink {
+.ArticleCardLink a {
   font-size: 16px;
   font-weight: bold;
 }
 
 .ArticleHeader {
   background-color: #e5e5e5;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .ArticleHeaderText {
@@ -71,7 +71,7 @@
 }
 
 .ArticleHeaderBlurb {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .ArticleText p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
