@@ -33,7 +33,7 @@ function Article() {
               return <p key={i}>{text.data}</p>;
             case 'h2':
               return <h2 key={i}>{text.data}</h2>;
-            case "h3":
+            case 'h3':
               return <h3 key={i}>{text.data}</h3>;
             default:
               return <p key={i}>{text.data}</p>;
